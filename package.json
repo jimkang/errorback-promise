@@ -1,0 +1,31 @@
+{
+  "name": "errorback-promise",
+  "version": "1.0.0",
+  "description": "For use with async/await patterns that immediately handle errors instead of using try/catch, wraps callback-using functions in promises that return errors in an object instead of rejecting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/errorback-promise.git"
+  },
+  "keywords": [
+    "async/await",
+    "callback",
+    "errorback",
+    "promise"
+  ],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/errorback-promise/issues"
+  },
+  "homepage": "https://github.com/jimkang/errorback-promise",
+  "devDependencies": {
+    "assert-no-error": "^1.0.0",
+    "call-next-tick": "^2.0.1",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {}
+}
